@@ -1,4 +1,4 @@
-This is the Intermediate selection from Deliberate Practice
+  This is the Intermediate selection from Deliberate Practice
 
 SET 1 INSERT A VARIABLE INTO A STRING USING EITHER CONCATENATION OR INTERPOLATION.
 # 1 Write a program that uses variables to store a first and last name, then prints the full name in one line using string concatenation (the + operator).
