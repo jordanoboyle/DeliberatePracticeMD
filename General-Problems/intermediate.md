@@ -24,25 +24,25 @@ SET 1 INSERT A VARIABLE INTO A STRING USING EITHER CONCATENATION OR INTERPOLATIO
 
 SET 2 MAP AN ARRAY TO A NEW ARRAY WITH SOME COMPUTATION PERFORMED ON EACH ITEM
 
-# 1 Start with an array of numbers and create a new array with each number times 3. For example, [1, 2, 3] becomes [3, 6, 9].
+# 1 Start with an array of numbers and create a new array with each number times 3. For example, [1, 2, 3, 4] becomes [3, 6, 9, 16].
 
-# 2 Start with an array of strings and create a new array with each string upcased. For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
+# 2 Start with an array of strings and create a new array with each string upcased. For example, ["hello", "goodbye", "later"] becomes ["HELLO", "GOODBYE", "LATER"].
 
-# 3 Start with an array of hashes and create a new array of string values from each hash's :name key. For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
+# 3 Start with an array of hashes and create a new array of string values from each hash's :name key. For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}, {name: "Cloud", age: 25}] becomes ["Alice", "Blane", "Cloud"].
 
 # 4 Start with an array of numbers and create a new array with each number plus 7. For example, [1, 2, 3] becomes [8, 9, 10].
 
 # 5 Start with an array of strings and create a new array with each string's length. For example, ["hello", "goodbye"] becomes [5, 7].
 
-# 6 Start with an array of hashes and create a new array of number values from each hash's :age key. For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
+# 6 Start with an array of hashes and create a new array of number values from each hash's :age key. For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16]. (bonus: use string interpolation to print out a coherent sentence)
 
-# 7 Start with an array of numbers and create a new array with each number divided by 2. For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
+# 7 Start with an array of numbers and create a new array with each number divided by 2. For example, [1, 2, 3, 4] becomes [0.5, 1.0, 1.5, 2.0]. (BONUS) Try making an array of hashes like this {1: {0.5: "Is 1 / 2"}}
 
-# 8 Start with an array of strings and create a new array with each string's first letter only. For example, ["hello", "goodbye"] becomes ["h", "g"].
+# 8 Start with an array of strings and create a new array with each string's first letter only. For example, ["hello", "goodbye"] becomes ["h", "g"]. BONUS: make a hash yielding [{first_l: "h", last_l: "o", whole: "hello"}]
 
-# 9 Start with an array of hashes and create a new array of number values from each hash's :age key times 2. For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
+# 9 Start with an array of hashes and create a new array of number values from each hash's :age key times 2. For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}, {name: "Barret", age: 33}] becomes [54, 32, 66].
 
-# 10 Start with an array of numbers and create a new array with each number converted into a string. For example, [1, 2, 3] becomes ["1", "2", "3"].
+# 10 Start with an array of numbers and create a new array with each number converted into a string. For example, [1, 2, 3, 4] becomes ["1", "2", "3", "4"].
 
 
 SET 3 SELECT ITEMS FROM AN ARRAY INTO A NEW ARRAY WITH ITEMS THAT MATCH A CERTAIN CONDITION
