@@ -12,6 +12,8 @@ If the book is a regular book and overdue by more than 7 days, the fine is $2 pe
 If the book is a reference book, there is no fine, regardless of the number of days overdue.
 If the book is a special collection book, the fine is $5 per day, regardless of the number of days overdue.
 
+BONUS: write a method that generates a random book type, and random number of days for overdue to test your other method. 
+
 3. Write a program that stores a person's order value and membership level (regular or premium). Then calculate a discount amount based on the following conditions:
 
 If the total order value is less than $50, there is no discount.
