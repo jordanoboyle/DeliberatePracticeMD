@@ -68,8 +68,8 @@ SET 3 SELECT ITEMS FROM AN ARRAY INTO A NEW ARRAY WITH ITEMS THAT MATCH A CERTAI
 # 10 Start with an array of numbers and create a new array with only the odd numbers. For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
 
 
-SET 4 REDUCE AN ARRAY TO A SINGLE VALUE BASED ON SOME COMPUTATION
 
+SET 4 REDUCE AN ARRAY TO A SINGLE VALUE BASED ON SOME COMPUTATION
 # 1 Start with an array of numbers and compute the sum of all the numbers. For example, [5, 10, 8, 3] becomes 26.
 
 # 2 Start with an array of strings and combine them all into a single string. For example, ["volleyball", "basketball", "badminton"] becomes "volleyballbasketballbadminton".
