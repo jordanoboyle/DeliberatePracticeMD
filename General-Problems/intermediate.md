@@ -34,7 +34,7 @@ SET 2 MAP AN ARRAY TO A NEW ARRAY WITH SOME COMPUTATION PERFORMED ON EACH ITEM
 
 # 5 Start with an array of strings and create a new array with each string's length. For example, ["hello", "goodbye", "frog"] becomes [5, 7, 4].
 
-# 6 Start with an array of hashes and create a new array of number values from each hash's :age key. For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16]. (bonus: use string interpolation to print out a coherent sentence)
+# 6 Start with an array of hashes and create a new array of number values from each hash's :age key. For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}, {name:"Cloud", age: 30}, {name: "Noctis", age: 24}] becomes [27, 16, 30, 24]. (bonus: use string interpolation to print out a coherent sentence)
 
 # 7 Start with an array of numbers and create a new array with each number divided by 2. For example, [1, 2, 3, 4] becomes [0.5, 1.0, 1.5, 2.0]. (BONUS) Try making an array of hashes like this {1: {0.5: "Is 1 / 2"}}
 
