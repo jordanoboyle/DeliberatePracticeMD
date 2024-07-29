@@ -32,3 +32,10 @@ Standard:
   - Contains Intermediate-Technical file
 Bonus:
   - Contains More-Technical File
+
+JavaScript-Specific:
+These are based in the JS language. Obviously all coding problems can be completed using any language, however, these were designed to be a little more JS specific. I plan to take advantage of JS unique properties such as async and timeouts in order to vary when certain blocks of code will be run in a specific challenge.
+
+  Currently Two Levels: 
+  Intermediate
+  Advanced
