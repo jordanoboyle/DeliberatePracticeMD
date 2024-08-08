@@ -70,10 +70,10 @@ For example, "bookkeeper" becomes {"b" => 1, "o" => 2, "k" => 2, "e" => 3, "p" =
 For example, {"chair" => 100, "book" => 14, "desk" => 98, "footstool" => 133} becomes [["chair", 100], ["book", 14], ["desk", 98], ["footstool", 133]]..
 
 5. Convert a hash into an array of hashes using the keys from each hash as the :id key in each of the array's hashes.
-For example, {321 => {name: "Alice", age: 31}, 322 => {name: "Maria", age: 27}} becomes [{id: 321, name: "Alice", age: 31}, {id: 322, name: "Maria", age: 27}].
+For example, {321 => {name: "Alice", age: 31}, 322 => {name: "Maria", age: 27}, 323 => {name: "Noctis", age: 25}} becomes [{id: 321, name: "Alice", age: 31}, {id: 322, name: "Maria", age: 27}, {id: 323, name: "Noctis", age: 25}].
 
 6. Convert an array of strings into a hash with keys for each string in the array and values for the number of times the string appears in the array.
-For example, ["do", "or", "do", "not"] becomes {"do" => 2, "or" => 1, "not" => 1}.
+For example, ["do", "or", "do", "not", "do", "or", "do", "not"] becomes {"do" => 4, "or" => 2, "not" => 2}.
 
 7. Convert a hash into a flat array containing all the hash’s keys and values.
 For example, {"a" => 1, "b" => 2, "c" => 3, "d" => 4} becomes ["a", 1, "b", 2, "c", 3, "d", 4].
