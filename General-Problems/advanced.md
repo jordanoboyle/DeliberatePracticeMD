@@ -67,7 +67,7 @@ For example, [{id: 1, color: "blue", price: 32}, {id: 2, color: "red", price: 12
 For example, "bookkeeper" becomes {"b" => 1, "o" => 2, "k" => 2, "e" => 3, "p" => 1, "r" => 1}.
 
 4. Convert a hash into an array of arrays.
-For example, {"chair" => 100, "book" => 14} becomes [["chair", 100], ["book", 14]].
+For example, {"chair" => 100, "book" => 14, "desk" => 98, "footstool" => 133} becomes [["chair", 100], ["book", 14], ["desk", 98], ["footstool", 133]]..
 
 5. Convert a hash into an array of hashes using the keys from each hash as the :id key in each of the array's hashes.
 For example, {321 => {name: "Alice", age: 31}, 322 => {name: "Maria", age: 27}} becomes [{id: 321, name: "Alice", age: 31}, {id: 322, name: "Maria", age: 27}].
