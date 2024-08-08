@@ -61,7 +61,7 @@ SET 4 CONVERT DATA FROM ONE DATA TYPE TO ANOTHER.
 For example, [[1, 3], [8, 9], [2, 16]] becomes {1 => 3, 8 => 9, 2 => 16}.co 
 
 2. Convert an array of hashes into a hash using the :id key from the array's hashes as the keys in the new hash.
-For example, [{id: 1, color: "blue", price: 32}, {id: 2, color: "red", price: 12}] becomes {1 => {id: 1, color: "blue", price: 32}, 2 => {id: 2, color: "red", price: 12}}.
+For example, [{id: 1, color: "blue", price: 32}, {id: 2, color: "red", price: 12}, {id: 3, color: "green", price: 13}] becomes {1 => {id: 1, color: "blue", price: 32}, 2 => {id: 2, color: "red", price: 12}, 3 => 3 => {id: 3, color: "green", price: 13}}.
 
 3. Convert a string into a hash with keys for each letter in the string and values for the number of times the letter appears in the string.
 For example, "bookkeeper" becomes {"b" => 1, "o" => 2, "k" => 2, "e" => 3, "p" => 1, "r" => 1}.
