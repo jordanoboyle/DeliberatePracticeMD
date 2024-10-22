@@ -19,3 +19,18 @@ Example: For array [1, 3, 4, 7, 10] and target 15, the function returns [4, 10].
 5. Remove duplicates in-place in a sorted array.
 Description: Write a function that removes duplicates from a sorted array in-place and returns the new length of the array using two-point iteration.
 Example: For array [1, 1, 2, 2, 3, 4, 4, 5], the function modifies the array to [1, 2, 3, 4, 5] and returns 5.
+
+
+NEXT SET OF PROBLEMS
+
+2. Find the Longest Palindromic Subarray
+Description: Write a function that finds the longest palindromic subarray within a given array using two-point iteration. Compare elements from both ends of potential subarrays to identify the longest one.
+Example:
+For input [1, 2, 3, 2, 1, 5, 6], the longest palindromic subarray is [1, 2, 3, 2, 1].
+
+
+3. Find the First Mismatch Between Two Arrays
+Description: Write a function that compares two arrays element by element using two-point iteration (from both ends). The function should return the indices of the first mismatched pair of elements. If both arrays are identical when compared this way, return null.
+Example:
+For input arrays [1, 2, 3, 4] and [1, 2, 5, 4], the first mismatch occurs at index 2 (3 vs 5), so return 2.
+For input [9, 8, 7] and [9, 8, 7], the arrays are identical, so return null.
